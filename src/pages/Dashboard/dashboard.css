@@ -1,0 +1,21 @@
+.dashboard-container{
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dashboard-events, .dashboard-jobs{
+  margin: .5rem .3rem ;
+  border-radius: 5px;
+}
+
+.dashboard-events{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.dashboard-jobs{
+  width: 65%;
+}
+

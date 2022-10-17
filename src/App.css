@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-light: rgba(0, 0, 0, 0.025);
+  --cta: rgb(20,58,255); 
+  --cta-light: rgb(237, 240, 255); 
+  --text-primary: rgba(0, 0, 0, 0.704);
+  --gray-light: rgb(125, 125, 125);
+  --border: rgba(0, 0, 0, 0.192);
+}
+
+body{
+  background-color: var(--bg-light);
+  color: var(--text-primary);
+}
+
+.txt-blue{
+  color: var(--cta)
+}
+
+.txt-xl{
+  font-weight: 600;
+}

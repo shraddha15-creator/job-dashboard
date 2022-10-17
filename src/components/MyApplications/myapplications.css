@@ -1,0 +1,4 @@
+.applications-listing{
+  display: flex;
+  flex-direction: column;
+}

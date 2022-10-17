@@ -1,0 +1,33 @@
+.jobcard{
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  background-color: white;
+  margin: .5rem 0;
+  padding: .3rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  /* background-color: var(--bg-light); */
+}
+
+
+.job-logo{
+  width: 6%;
+}
+
+.comp-name{
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.comp-description{
+  display: flex;
+  gap: 1.5rem;
+  margin-top: .3rem;
+  font-size: .7rem;
+  font-weight: 500;
+}
+
+.job-role{
+  font-weight: 600;
+}

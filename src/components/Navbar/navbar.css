@@ -1,0 +1,46 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar-mid{
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-item{
+  text-decoration: none;
+  color: var(--text-primary);
+} 
+
+.navbar-item:hover{
+  color: var(--cta);
+}
+
+.title{
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.navbar-item,.navbar-username{
+    font-weight: 600;
+  font-size: .8rem;
+}
+
+.username-avtar{
+  background-color: var(--cta);
+  width: 1rem;
+  height: 1rem;
+  padding: .5rem;
+  border-radius: 50px;
+  color: white;
+  margin-right: .4rem;
+}
+
+.home-icon{
+  font-size: 1.3rem;
+}
